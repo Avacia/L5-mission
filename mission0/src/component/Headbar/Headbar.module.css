@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+.headBar{
+    margin-top:0.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:1rem;
+}
+
+.leftSection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:1rem;
+    gap:0.5rem;
+}
+
+.leftSection > p{
+    font-size: 0.6rem;
+    font-family: 'EB Garamond';
+    font-weight: 700;
+    font-style: italic;
+}
+
+.rightSection{
+    text-align: center;
+    margin-right:1rem;
+}

@@ -1,17 +1,23 @@
 import { useState } from 'react'
 import './App.css'
+import HeadBar from './component/Headbar/Headbar.jsx'
+import HeadSection from './component/HeadSection/headSection.jsx'
+import BodySection from './component/BodySection/bodySection.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  function Count(){
-    setCount(count + 1)
-  }
   
   return (
     <div>
-      <h1>Hello World!</h1>
-      <button onClick={Count}>Count {count}</button>
+      <HeadBar />
+
+      <section className='headSection'>
+        <HeadSection />
+      </section>
+
+      <section className='bodySection'>
+        <BodySection />
+      </section>
+
     </div>
   )
 }
