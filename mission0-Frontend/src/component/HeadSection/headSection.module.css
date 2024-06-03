@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.heading{
+    height: 80vh;
+}
+
+.topic{
+    margin-left:2rem;
+    font-family: "Kanit";
+    font-size: 1.9rem;
+}
+
+
+@media screen and (max-width:768px){
+    .heading{
+        background-image: none;
+        background-color: grey;
+        height:30vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .heading{
+        background-image: url('https://marketing.org.nz/hs-fs/hubfs/MA%20WEB%2050th%20Banner%20(1).gif?width=1639&height=921&name=MA%20WEB%2050th%20Banner%20(1).gif');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }    
+}
+
+@media screen and (min-width:912px){
+    .heading{
+        background-image: url('https://marketing.org.nz/hs-fs/hubfs/MA%20WEB%2050th%20Banner%20(1).gif?width=1639&height=921&name=MA%20WEB%2050th%20Banner%20(1).gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }    
+}
