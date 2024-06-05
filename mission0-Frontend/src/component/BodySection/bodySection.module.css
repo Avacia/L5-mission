@@ -1,0 +1,61 @@
+/* ======================== White Middle Section  ========================*/
+.upperBodySection{
+    height:80vh;
+    display:flex;
+    align-items: center;
+}
+
+.lottieAnimation{
+    width:60vw;
+}
+
+.leftAnimationSection{
+    width:60vw;
+}
+
+.textSection{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    padding-left: 7vw;
+}
+
+.textSection > h2{
+    font-size: 3rem;
+}
+
+.textSection > h1{
+    color:rgba(201, 172, 105, 1.0);
+    font-size: 5rem;
+}
+
+
+/* ======================== Black Bottom Section  ========================*/
+.bottomBodySection{
+    background-image: url('../../assets/dark_scratch_board.jpg');
+}
+
+.searchbar{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1vh;
+    z-index: 3;
+}
+
+/* ========================== Mobile Responsive  ==========================*/
+@media screen and (max-width:768px){
+    .upperBodySection{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .upperBodySection{
+        height:50vh;
+    }
+
+    .leftAnimationSection{
+        display: none;
+    }
+}

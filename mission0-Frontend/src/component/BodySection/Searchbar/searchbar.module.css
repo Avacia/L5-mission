@@ -1,0 +1,51 @@
+.loading{
+    color:white;
+}
+
+.inputWrapper{
+    background-color: white;
+    width:20%;
+    border-radius: 10px;
+    height:2.5rem;
+    box-shadow: 0px 0px 8px #ddd;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+
+.iconButton{
+    background-color: white;
+    border:none;
+    margin-left:1rem;
+}
+
+.iconButton:hover{
+    cursor: pointer;
+}
+
+.inputWrapper > input{
+    background-color: transparent;
+    border: none;
+    height:100%;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+.inputWrapper > input:focus{
+    outline: none;
+}
+
+
+@media screen and (max-width:768px){
+    .inputWrapper{
+        width:60%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .inputWrapper{
+        width:50%;
+    }
+}

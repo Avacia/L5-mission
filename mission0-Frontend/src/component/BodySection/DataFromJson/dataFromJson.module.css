@@ -1,0 +1,27 @@
+.jsonData{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5vw;
+    padding-top: 10vh;
+    padding-left:10vw;
+}
+
+
+@media screen and (max-width:768px){
+    .jsonData{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3vh;
+        padding-right:8.5vw;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .jsonData{
+        column-gap: 0;
+        row-gap: 3vh;
+        padding-top: 5vh;
+        padding-left:2.3vw;
+    }
+}

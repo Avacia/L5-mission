@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+.headBar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+
+
+.leftSection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    gap:0.5rem;
+}
+
+.leftSection > img{
+    width:5vw;
+    height:10vh;
+}
+
+.leftSection > img:hover{
+    cursor: pointer;
+}
+
+.leftSection > p{
+    font-size: 1.4rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+.rightSection{
+    margin-right:1rem;
+}
+
+.webVersion{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.webVersion > p{
+    margin:0.8rem;
+}
+
+.loginBtn{
+    border:2px solid black;
+    border-radius: 0.2rem;
+    background-color: white;
+    padding:0.5rem 2rem;
+}
+
+
+@media screen and (max-width:430px){
+    .headBar{
+        margin-top:0.5rem;
+        margin-bottom:1rem;
+    }
+
+    .leftSection{
+        margin-left:1rem;
+        gap:0.5rem;
+    }
+
+    .leftSection > p{
+        font-size: 1rem;
+    }
+
+    .leftSection > img{
+        width:auto;
+    }
+
+    .webVersion{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .headBar{
+        gap:1rem;
+    }
+    
+    .webVersion{
+        gap:0.5rem;
+    }
+
+    .webVersion > p{
+        margin:0.2rem;
+    }
+
+    .loginBtn{
+        padding:0.3rem 1.5rem;
+    }
+
+    .leftSection > img{
+        width:14vw;
+    }
+
+    .leftSection > p{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:768px){
+    .phoneVersion{
+        display: none;
+    }
+}

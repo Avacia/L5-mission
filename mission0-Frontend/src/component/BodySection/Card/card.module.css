@@ -1,0 +1,90 @@
+.card{
+    border: 2px solid rgba(201, 172, 105, 1.0) ;
+    border-radius: 10px;
+    width:15vw;
+    height:35vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+.card_image > img{
+    width: 8vw;
+    height:20vh;
+    padding-top: 2vh;
+}
+
+.card_info{
+    color:rgba(201, 172, 105, 1.0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover{
+    cursor: pointer;
+    width:15vw;
+    height:35vh;
+}
+
+@media screen and (max-width:768px){
+    .card{
+        width:70vw;
+        height:35vh;
+        gap:0.5rem;
+    }
+
+    .card_image > img{
+        width: 50vw;
+        height:25vh;
+        padding-top: 2vh;
+    }
+
+    .card_info{
+        font-size: 1.2rem;
+        gap:0.5rem;
+    }
+
+    .card:hover{
+        cursor: pointer;
+        width:80vw;
+        height:40vh;
+    }
+
+    .card:after{
+        width:70vw;
+        height:35vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .card{
+        width:30vw;
+        height:25vh;
+        gap:1rem;
+    }
+
+    .card_image > img{
+        width: 15vw;
+        height:15vh;
+        padding-top: 2vh;
+    }
+
+    .card_info{
+        font-size: 0.8rem;
+        gap:0.5rem;
+    }
+
+    .card:hover{
+        cursor: pointer;
+        width:30vw;
+        height:25vh;
+        background-color: white;
+    }
+
+    .card:after{
+        background-color: none;
+    }
+}
