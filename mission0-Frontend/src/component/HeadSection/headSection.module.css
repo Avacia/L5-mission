@@ -10,13 +10,56 @@
     font-size: 1.9rem;
 }
 
+.topic > h5{
+    padding-top:8rem;
+    padding-left:5rem;
+    color: rgba(201, 172, 105, 1.0);
+}
+
+.topic > h1{
+    padding-left:5rem;
+    color: white;
+    font-size: 5rem;
+}
+
+.phoneVersion{
+    display:none;
+}
+
 
 @media screen and (max-width:768px){
     .heading{
-        background-image: none;
-        background-color: grey;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('../../assets/cryptoImage.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
         height:30vh;
     }
+
+    .topic{
+        display:none;
+    }
+
+    .phoneVersion{
+        display: block;
+        margin-right: 50vw;    
+    }
+
+    .phoneVersion > h5{
+        padding:0;
+        padding-top: 5vh;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .phoneVersion > h1{
+        padding-left:2vw;
+        font-size: 2.5rem;
+        color: rgba(201, 172, 105, 1.0);
+    }
+
 }
 
 @media screen and (min-width:768px) and (max-width:912px){
@@ -24,8 +67,20 @@
         background-image: url('https://marketing.org.nz/hs-fs/hubfs/MA%20WEB%2050th%20Banner%20(1).gif?width=1639&height=921&name=MA%20WEB%2050th%20Banner%20(1).gif');
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: center;
-    }    
+        width:100vw;
+        height: 43vh;
+    }
+    
+    .topic > h5{
+        padding-top:10vh;
+        font-size: 1rem;
+        color: rgba(201, 172, 105, 1.0);
+    }
+    
+    .topic > h1{
+        font-size: 3rem;
+        color: white;
+    }
 }
 
 @media screen and (min-width:912px){

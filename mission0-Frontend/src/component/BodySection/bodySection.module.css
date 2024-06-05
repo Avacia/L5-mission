@@ -1,20 +1,61 @@
-.searchBar{
-    color:white;
-    margin-top:45vh;
-    width:20%;
+/* ======================== White Middle Section  ========================*/
+.upperBodySection{
+    height:80vh;
+    display:flex;
+    align-items: center;
+}
+
+.lottieAnimation{
+    width:60vw;
+}
+
+.leftAnimationSection{
+    width:60vw;
+}
+
+.textSection{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    min-width: 200px;
-    margin-left: 10vw;
+    gap:1rem;
+    padding-left: 7vw;
+}
+
+.textSection > h2{
+    font-size: 3rem;
+}
+
+.textSection > h1{
+    color:rgba(201, 172, 105, 1.0);
+    font-size: 5rem;
 }
 
 
-.container{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 0.2rem;
-    row-gap: 3rem;
-    margin-top: 2rem;
-    margin-left:4rem;
+/* ======================== Black Bottom Section  ========================*/
+.bottomBodySection{
+    background-image: url('../../assets/dark_scratch_board.jpg');
+}
+
+.searchbar{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1vh;
+    z-index: 3;
+}
+
+/* ========================== Mobile Responsive  ==========================*/
+@media screen and (max-width:768px){
+    .upperBodySection{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .upperBodySection{
+        height:50vh;
+    }
+
+    .leftAnimationSection{
+        display: none;
+    }
 }

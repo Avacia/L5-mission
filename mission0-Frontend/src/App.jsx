@@ -1,6 +1,7 @@
 /* ============================== Import Files ============================== */
 /* ======================= Library ======================= */
 import { useState } from 'react'
+import { QueryClientProvider, QueryClient } from 'react-query'
 
 /* ======================= Component ======================= */
 import './App.css'
@@ -10,6 +11,7 @@ import BodySection from './component/BodySection/bodySection.jsx'
 import Footer from './component/Footer/footer.jsx'
 
 
+const client = new QueryClient();
 /* ======================= App Function ======================= */
 function App() {
   
@@ -24,10 +26,13 @@ function App() {
         <HeadSection />
       </section>
 
-      <section className='bodySection'>
-        <BodySection />
-      </section>
+      <QueryClientProvider client={client}>
+        <section className='bodySection'>
+          <BodySection />
+        </section>
+      </QueryClientProvider>
 
+      <hr />
       <section className='footer'>
         <Footer />
       </section>

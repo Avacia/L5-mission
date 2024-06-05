@@ -3,38 +3,70 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
 import {useState} from 'react'
+import {useQuery} from 'react-query'
+import Typewriter from 'typewriter-effect'
 
 /* ======================= Component ======================= */
 import style from './searchbar.module.css'
+import fetchData from '../FetchData/fetchData.jsx'
 
 
-export default function Searchbar(){
+export default function Searchbar({setResults}){
 
     const [userInput, setUserInput] = useState('')
+    const [data, setData] = useState([])
+    const {dataFromAPI, isLoading, error} = useQuery('crypto', fetchData())
 
-    const fetchData = (value) =>{
-        fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false')
-        .then((response) => response.json())
-        .then((results) => {
-            const result = results.filter((crypto) =>{
-                return crypto
-            })
-        }) 
+    /* ==================== Handle Change ==================== */
+    const handleChange = (event) => {
+        event.preventDefault()
+        setUserInput(event.target.value)
+        setData(dataFromAPI)
+        console.log(data)
+    }
+    
+
+    /* =================== Fetch Unsuccessful ================== */
+    if(isLoading){
+        return( 
+                <h1 className={style.loading}> 
+                    <Typewriter
+                        options={{
+                            autoStart:true,
+                            loop:true,
+                            delay:50,
+                            strings:["Loading ..."]
+                        }}
+                    /> 
+                </h1>
+        )
     }
 
-    function handleChange(value){
-        setUserInput(value)
-        fetchData(value)
+    else if(error){
+        return( 
+            <h1 className={style.loading}> 
+                <Typewriter
+                    options={{
+                        autoStart:true,
+                        loop:true,
+                        delay:50,
+                        strings:["Error Data Fetching ..."]
+                    }}
+                /> 
+            </h1>
+    )
     }
 
     /* ======================== Display ======================== */
     return(
-
-        <div className={style.inputWrapper}>
-            <button className={style.iconButton}><FontAwesomeIcon icon={faMagnifyingGlass} size='2x'/></button>
-            <input placeholder='Type to search...' 
-                   value={userInput} 
-                   onChange={(event) => handleChange(event.target.value)}/>
-        </div>
+            <div className={style.inputWrapper}>
+                <button className={style.iconButton}><FontAwesomeIcon icon={faMagnifyingGlass} size='2x'/></button>
+                <input
+                    type='text' 
+                    placeholder='Type to search...'  
+                    onChange={handleChange}
+                    value={userInput}    
+                />
+            </div>
     )
 }

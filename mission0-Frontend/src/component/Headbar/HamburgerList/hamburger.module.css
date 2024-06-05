@@ -1,0 +1,63 @@
+.hamburger{
+    display:flex;
+    flex-direction: column;
+    align-items: self-end;
+}
+
+.icon{ 
+    position:inherit;
+    z-index: 2;
+}
+
+.unClicked{
+    display: none;
+}
+
+.clicked{
+    display:block;
+}
+
+.visible{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:50vw;
+    height: 32vh;
+}
+
+.menu{
+    padding-top: 6vh;
+    position:absolute;
+    z-index: 1;
+}
+
+.burgerText{
+    font-size: 2rem;
+}
+
+.burgerText:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.loginBtn{
+    font-size: 2rem;
+    background-color: white;
+    border:none;
+}
+
+.loginBtn:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    width: 100%;
+    height: auto;
+}

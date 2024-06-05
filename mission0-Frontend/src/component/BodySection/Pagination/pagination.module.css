@@ -1,0 +1,54 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    height:15vh;
+    gap:1rem;
+}
+
+.active{
+    margin-top: 4vh;
+    background-color: white;
+    border: 2px solid rgba(201, 172, 105, 1.0) ;
+    border-radius: 10px;
+    width:3vw;
+    height:7vh;
+}
+
+.inactive{
+    margin-top: 5vh;
+    background-color: rgba(201, 172, 105, 1.0) ;
+    border: 2px solid white ;
+    border-radius: 10px;
+    width:2vw;
+    height:5vh;
+}
+
+
+@media screen and (max-width:768px){
+    .pagination{
+        gap:0.5rem;
+    }
+
+    .active{
+        margin-top: 4.5vh;
+        width:10vw;
+        height:6vh;
+    }
+    
+    .inactive{
+        width:8vw;
+        height:5vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .active{
+        width:9vw;
+        height:7vh;
+    }
+    
+    .inactive{
+        width:6vw;
+        height:5vh;
+    }
+}

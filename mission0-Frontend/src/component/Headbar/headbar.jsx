@@ -15,8 +15,9 @@ export default function HeadBar(){
         <div className={style.headBar}>
 
             <section className={style.leftSection}>
-                <FontAwesomeIcon icon={faCircle} size='3x' color='grey'/>
-                <p>My Company</p>
+                <img src='https://marketing.org.nz/hs-fs/hubfs/MA_Logo_square_tag.png?width=100&height=100&name=MA_Logo_square_tag.png' 
+                     alt='NZ Marketing Association logo'/>
+                <p>NZ Marketing Association</p>
             </section>
 
             <section className={style.rightSection}>

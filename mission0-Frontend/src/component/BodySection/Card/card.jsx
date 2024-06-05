@@ -1,5 +1,8 @@
 /* ============================== Import Files ============================== */
 /* ======================= Component ======================= */
+import {motion} from 'framer-motion'
+
+/* ======================= Component ======================= */
 import style from './card.module.css'
 
 
@@ -7,7 +10,18 @@ import style from './card.module.css'
 export default function Card({image, name, currentPrice}){
     return(
 
-        <div className={style.card}>
+        <motion.div 
+            whileHover="hover"
+            variants={{
+                hover:{
+                    scale:1.2
+                }
+            }}
+            transition={{
+                duration:0.5,
+                ease:"backInOut"
+            }}
+            className={style.card}>
 
             <div className={style.card_image}>
                 <img src={image} alt={name} />
@@ -15,9 +29,9 @@ export default function Card({image, name, currentPrice}){
 
             <div className={style.card_info}>
                 <h2>{name}</h2>
-                <h5>{currentPrice}</h5>
+                <h5>USD ${currentPrice}</h5>
             </div>
 
-        </div>
+        </motion.div>
     )
 }

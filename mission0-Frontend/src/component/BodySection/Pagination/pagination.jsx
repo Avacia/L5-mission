@@ -16,13 +16,13 @@ export default function Pagination({totalPosts, postsPerPage, setCurrentPage, cu
 
 
     return (
-        <div>
+        <div className={style.pagination}>
             {
                 pages.map((page, index) => {
                     return(
                         <button key={index} 
                                 onClick={() => setCurrentPage(page)}
-                                className={page == currentPage ? 'active' : ''}
+                                className={page == currentPage ? `${style.active}` : `${style.inactive}` }
                         >
                             {page}
                         </button>

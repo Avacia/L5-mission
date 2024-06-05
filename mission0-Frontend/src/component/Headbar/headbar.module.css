@@ -8,6 +8,8 @@
     margin-bottom: 0.8rem;
 }
 
+
+
 .leftSection{
     display:flex;
     justify-content: center;
@@ -16,12 +18,23 @@
     gap:0.5rem;
 }
 
+.leftSection > img{
+    width:5vw;
+    height:10vh;
+}
+
+.leftSection > img:hover{
+    cursor: pointer;
+}
+
 .leftSection > p{
     font-size: 1.4rem;
     font-family: 'EB Garamond', serif;
     font-weight: 700;
     font-style: italic;
 }
+
+
 
 .rightSection{
     margin-right:1rem;
@@ -57,11 +70,41 @@
     }
 
     .leftSection > p{
-        font-size: 0.6rem;
+        font-size: 1rem;
+    }
+
+    .leftSection > img{
+        width:auto;
     }
 
     .webVersion{
         display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .headBar{
+        gap:1rem;
+    }
+    
+    .webVersion{
+        gap:0.5rem;
+    }
+
+    .webVersion > p{
+        margin:0.2rem;
+    }
+
+    .loginBtn{
+        padding:0.3rem 1.5rem;
+    }
+
+    .leftSection > img{
+        width:14vw;
+    }
+
+    .leftSection > p{
+        font-size: 1.3rem;
     }
 }
 
