@@ -38,12 +38,12 @@ Prototype of a NZ Marketing Association Webpage with mobile responsive required.
 
 
 
+This project is for NZ Marketing Association that allow user to find the crypto price for the current market.
 
 ![NZ Marketing Association](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/main.png)
 
-This project is for NZ Marketing Association that allow user to find the crypto price for the current market.
 
-  The main feature of the webpage:
+    The main feature of the webpage:
     
     - The headbar menu will switch to a hamburger menu when the screen size is smaller than 768px.
       - The hamburger menu will contain a list of categories.
