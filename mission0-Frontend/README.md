@@ -132,9 +132,12 @@ This project is for NZ Marketing Association that allow user to find the crypto 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [ ] Add Additional Templates w/ Examples
-
+- [ ] Webpage animation and display
+- [ ] Mobile Responsive
+- [ ] Hamburger Menu List
+- [ ] Content Pagination
+- [ ] API Fetching
+- [x] Search Bar functionality
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
