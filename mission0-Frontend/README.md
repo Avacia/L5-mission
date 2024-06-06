@@ -32,18 +32,26 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![NZ Marketing Association](/public/main.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This is a prototype of a NZ Marketing Association Webpage with mobile responsive required.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+  The main feature of the webpage:
+    
+    - The headbar menu will switch to a hamburger menu when the screen size is smaller than 768px.
+      - The hamburger menu will contain a list of categories.
+    
+    - Animation of headSection used react-spring & typewriter-effect library.
+    
+    - Animation of icons images used lottie-react library.
+    
+    - The mainSection will contain a search bar, a list of crypto coins, and a pagination.
+      - The search bar will be used to search for a crypto coin.(Not function at the moment)
+      - The list of crypto coins will be fetched from an API name coinGecko.
+      - The pagination will be used to navigate between pages.
+      - Each pages will only display 12 crypto coins.
+    
+    - The footer will contain a list of Copy right info.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
