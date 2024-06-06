@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![NZ Marketing Association](/public/main.png)
+![NZ Marketing Association](image/main.png)
 
 This is a prototype of a NZ Marketing Association Webpage with mobile responsive required.
 
