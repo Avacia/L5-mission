@@ -59,7 +59,7 @@ This project is for NZ Marketing Association that allow user to find the crypto 
     - Animation of icons images used lottie-react library.
 
     
-  ![Head Section](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/headSection.png) 
+  ![Head Section](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/headsection.png) 
 
 
   
