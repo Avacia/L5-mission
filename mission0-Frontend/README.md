@@ -185,7 +185,7 @@ Project Link: [https://github.com/Avacia/L5-mission.git](https://github.com/Avac
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Those library are very helpful while building animation and free API link.
 
 * [Font Awesome](https://fontawesome.com)
 * [Framer_motion](https://www.framer.com/motion/)
