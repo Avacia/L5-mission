@@ -14,12 +14,10 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "axios": "^1.7.2",
-    "express": "^4.19.2",
     "framer-motion": "^11.2.10",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-lottie": "^1.2.4",
     "react-query": "^3.39.3",
     "react-spring": "^9.7.3",
     "typewriter-effect": "^2.21.0"
