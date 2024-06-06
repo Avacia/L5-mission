@@ -43,6 +43,10 @@ This project is for NZ Marketing Association that allow user to find the crypto 
 ![NZ Marketing Association](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/main.png)
 
 
+
+    The folder structure will look like the image below:
+![React folder structure](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/folderStructure.png)
+
     The main feature of the webpage:
     
     - The headbar menu will switch to a hamburger menu when the screen size is smaller than 768px.
