@@ -9,7 +9,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About The Project & Usage</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -20,7 +20,6 @@
         <li><a href="#prerequisites">Prerequisites & Installation </a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -30,11 +29,13 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project & Usage
 
 ![NZ Marketing Association](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/main.png)
 
-This is a prototype of a NZ Marketing Association Webpage with mobile responsive required.
+This project is for NZ Marketing Association that allow user to find the crypto price for the current market.
+Prototype of a NZ Marketing Association Webpage with mobile responsive required. 
+![NZ Marketing Association Prototype Image](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/main.png)
 
   The main feature of the webpage:
     
@@ -123,16 +124,6 @@ This is an command that you will need to use before you start the project.
   ```sh
   npm install typewriter-effect
   ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-This project is for NZ Marketing Association that allow user to find the crypto price for the market.
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
