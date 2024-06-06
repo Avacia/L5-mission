@@ -185,7 +185,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Yen Wang]([https://www.youtube.com/channel/UCBp5I4NfVnBcjareGQDfPmQ]) - wang80139@gmail.com
+Yen Wang - [@avaciaroger]([https://www.youtube.com/channel/UCBp5I4NfVnBcjareGQDfPmQ]) - wang80139@gmail.com
 
 Project Link: [https://github.com/Avacia/L5-mission.git](https://github.com/Avacia/L5-mission.git)
 
