@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project & Usage
 
-Prototype of a NZ Marketing Association Webpage with mobile responsive required. 
+Create a website from a prototype of a NZ Marketing Association Webpage with mobile responsive required. 
 
 ![NZ Marketing Association Prototype Phone Image](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/prototypePhone.png)
 ![NZ Marketing Association Prototype Web Image](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/prototypeWeb.png)
