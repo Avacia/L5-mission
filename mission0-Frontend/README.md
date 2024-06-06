@@ -173,19 +173,10 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Yen Wang - [@avaciaroger]([https://www.youtube.com/channel/UCBp5I4NfVnBcjareGQDfPmQ]) - wang80139@gmail.com
+Yen Wang - [@avaciaroger](https://www.youtube.com/channel/UCBp5I4NfVnBcjareGQDfPmQ) - wang80139@gmail.com
 
 Project Link: [https://github.com/Avacia/L5-mission.git](https://github.com/Avacia/L5-mission.git)
 
