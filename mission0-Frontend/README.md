@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![NZ Marketing Association](image/main.png)
+![NZ Marketing Association](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/main.png)
 
 This is a prototype of a NZ Marketing Association Webpage with mobile responsive required.
 
