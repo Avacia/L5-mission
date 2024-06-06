@@ -17,14 +17,11 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Prerequisites & Installation </a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -54,16 +51,14 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section list all major frameworks/libraries used in the project.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [Fortawesome](https://fontawesome.com/icons/fort-awesome?f=brands&s=solid)
+* [framer-motion](https://www.framer.com/motion/)
+* [lottie-react](https://lottiefiles.com/)
+* [react-query](https://www.npmjs.com/package/react-query)
+* [react-spring](https://react-spring.dev/)
+* [typewriter-effect](https://www.npmjs.com/package/typewriter-effect)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,35 +67,54 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This project is for NZ Marketing Association, using a given prototype to build an actual
+webpage and required mobile responsive. To run the project, you will have to follow the
+steps below.
 
-### Prerequisites
+### Prerequisites & Installation
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+This is an command that you will need to use before you start the project.
+
+* Install npm
   ```sh
   npm install npm@latest -g
   ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
+* Create Vite & React project
+  ```sh
+  npm create vite@latest
+  ```
+* Install Fortawesome
+  ```sh
+  npm i --save @fortawesome/fontawesome-svg-core
+  ```
+  ```sh
+  npm i --save @fortawesome/free-solid-svg-icons
+  npm i --save @fortawesome/free-regular-svg-icons
+  npm i --save @fortawesome/free-brands-svg-icons
+  ```
+  ```sh
+  npm i --save @fortawesome/react-fontawesome@latest
+  ```
+* Install Framer-motion
+  ```sh
+  npm install framer-motion
+  ```
+* Install Lottie
+  ```sh
+  npm install lottie-react
+  ```
+* Install React Query
+  ```sh
+  npm install react-query
+  ```
+* Install React Spring
+  ```sh
+  npm install react-spring
+  ```
+* Install Typewriter Effect
+  ```sh
+  npm install typewriter-effect
+  ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -108,9 +122,8 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This project is for NZ Marketing Association that allow user to find the crypto price for the market.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,14 +133,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [x] Add Changelog
-- [x] Add back to top links
 - [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,13 +157,10 @@ Project Link: [https://github.com/Avacia/L5-mission.git](https://github.com/Avac
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Framer_motion](https://www.framer.com/motion/)
+* [Lottie_react](https://lottiefiles.com/)
+* [CoinGecko](https://www.coingecko.com/)
+* [{Json} Placeholder](https://jsonplaceholder.typicode.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
