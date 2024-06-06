@@ -31,28 +31,51 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project & Usage
 
+Prototype of a NZ Marketing Association Webpage with mobile responsive required. 
+
+![NZ Marketing Association Prototype Web Image](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/prototypeWeb.png)
+![NZ Marketing Association Prototype Phone Image](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/prototypePhone.png)
+
+
+
 ![NZ Marketing Association](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/main.png)
 
 This project is for NZ Marketing Association that allow user to find the crypto price for the current market.
-Prototype of a NZ Marketing Association Webpage with mobile responsive required. 
-![NZ Marketing Association Prototype Image](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/main.png)
 
   The main feature of the webpage:
     
     - The headbar menu will switch to a hamburger menu when the screen size is smaller than 768px.
       - The hamburger menu will contain a list of categories.
-    
+      
     - Animation of headSection used react-spring & typewriter-effect library.
+
     
+  ![Mobile Responsive](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/phoneVersion.png)
+  ![Ipad Responsive](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/ipadVersion.png)
+
+
+     
     - Animation of icons images used lottie-react library.
+
     
+  ![Head Section](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/headSection.png) 
+
+
+  
     - The mainSection will contain a search bar, a list of crypto coins, and a pagination.
       - The search bar will be used to search for a crypto coin.(Not function at the moment)
       - The list of crypto coins will be fetched from an API name coinGecko.
       - The pagination will be used to navigate between pages.
       - Each pages will only display 12 crypto coins.
-    
+
     - The footer will contain a list of Copy right info.
+
+  ![Body Section](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/bodySection.png)
+  ![Foot Section](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/footSection.png) 
+
+
+ 
+    
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
