@@ -1,0 +1,66 @@
+.app{
+    text-align: center;
+    padding-top:10vh;
+}
+
+.title{
+    font-size: 3rem;
+    padding-bottom: 5vh;
+}
+
+.search-section{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.uploadImageText:hover{
+    cursor: pointer;
+    color:blue;
+}
+
+.askButton{
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+    padding: 0.1rem 1rem;
+    margin:0 0 0 1rem;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.input-container{
+    width:100%;
+    display:flex;
+    border-radius:6px;
+    overflow:hidden;
+    box-shadow: rgba(0,0,82,0.15) 0 2px 4px;
+}
+
+.input-container input{
+    border:none;
+    padding:13px 14px;
+    font-size: 1rem;
+    outline: none;
+    width:90%;
+}
+
+.button{
+    min-width: 10%;
+    border:none;
+    border-left: 1px #cacaca solid;
+    background-color: #fff;
+    color:#777;
+    font-size: 1rem;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.answer{
+    box-shadow: rgba(0,0,82,0.15) 0 2px 4px;
+    padding: 13px 14px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 200;
+    border-radius: 6px;
+    color:grey;
+}
