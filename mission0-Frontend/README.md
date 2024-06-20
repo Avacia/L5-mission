@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project & Usage
 
-Prototype of a NZ Marketing Association Webpage with mobile responsive required. 
+Create a website from a prototype of a NZ Marketing Association Webpage with mobile responsive required. 
 
 ![NZ Marketing Association Prototype Phone Image](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/prototypePhone.png)
 ![NZ Marketing Association Prototype Web Image](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/prototypeWeb.png)
@@ -42,6 +42,10 @@ This project is for NZ Marketing Association that allow user to find the crypto 
 
 ![NZ Marketing Association](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/main.png)
 
+
+
+    The folder structure will look like the image below:
+![React folder structure](https://github.com/Avacia/L5-mission/blob/main/mission0-Frontend/public/folderStructure.png)
 
     The main feature of the webpage:
     
@@ -181,7 +185,7 @@ Project Link: [https://github.com/Avacia/L5-mission.git](https://github.com/Avac
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Those library are very helpful while building animation and free API link.
 
 * [Font Awesome](https://fontawesome.com)
 * [Framer_motion](https://www.framer.com/motion/)
